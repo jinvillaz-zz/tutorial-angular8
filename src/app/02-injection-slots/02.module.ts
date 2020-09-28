@@ -11,7 +11,7 @@ import { AppRoutingModule02, routingComponents02 } from './02.routing.module';
     AppRoutingModule02
   ],
   exports: [
-    AuthFormModule1
+    // AuthFormModule1
   ]
 })
 export class Module02 { }

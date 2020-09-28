@@ -16,4 +16,4 @@ import { AuthFormComponent1 } from './auth-form.component1';
     AuthFormComponent1
   ]
 })
-export class AuthFormModule1 {}
+export class AuthFormModule1 { }

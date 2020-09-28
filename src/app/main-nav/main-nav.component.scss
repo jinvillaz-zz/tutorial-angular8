@@ -16,6 +16,15 @@
   z-index: 1;
 }
 
-/*.mat-nav-list a.active {
-  background: rgb(168, 168, 177) !important;
-}*/
+/* .mat-list-item {
+  background-color: #fefefe;
+} */
+
+.mat-list-item.active{
+  color: red;
+}
+
+.item-menu-selected {
+  background: #336699;
+  color: #FFF;
+}

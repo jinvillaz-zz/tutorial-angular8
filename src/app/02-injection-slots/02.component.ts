@@ -6,7 +6,7 @@ import { User1 } from './auth-form/auth-form.interface1';
   templateUrl: './02.component.html',
   styleUrls: ['./02.component.scss']
 })
-export class Component02 implements OnInit {
+export class App02Component implements OnInit {
 
   constructor() { }
 

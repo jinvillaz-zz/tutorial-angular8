@@ -10,14 +10,14 @@ export class App01Component implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(): void{
   }
 
-  createUser(user: User) {
+  createUser(user: User): void {
     console.log('Create account', user);
   }
 
-  loginUser(user: User) {
+  loginUser(user: User): void {
     console.log('Login', user);
   }
 }

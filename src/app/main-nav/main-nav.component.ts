@@ -15,13 +15,14 @@ export class MainNavComponent {
       map(result => result.matches)
     );
   links: Array<{ value: string, path: string }> = [];
+  selectedItem = '';
 
   constructor(private breakpointObserver: BreakpointObserver) {
     this.links.push(
       { path: '/', value: 'Home' },
       { path: '/01-content-projection', value: '01-content-projection' },
-      { path: '/02-injection-slots', value: '02-injection-slots' }
+      { path: '/02-injection-slots', value: '02-injection-slots' },
+      { path: '/03-projecting-components', value: '03-projecting-components' },
     );
   }
-
 }

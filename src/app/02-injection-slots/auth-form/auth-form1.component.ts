@@ -1,12 +1,12 @@
 import { Component, Output, EventEmitter } from '@angular/core';
 
-import { User1 } from './auth-form.interface1';
+import { User1 } from './auth-form1.interface';
 
 @Component({
-  selector: 'auth-form1',
+  selector: 'app-auth-form1',
   template: `
     <div>
-      <form (ngSubmit)="onSubmit(form.value)" #form="ngForm">
+      <form (ngSubmit)="onSubmit(form1.value)" #form1="ngForm">
         <ng-content select="h3"></ng-content>
         <label>
           Email address
@@ -22,11 +22,11 @@ import { User1 } from './auth-form.interface1';
   `,
   styleUrls: ['./auth-form.scss']
 })
-export class AuthFormComponent1 {
+export class AuthForm1Component {
 
   @Output() submitted: EventEmitter<User1> = new EventEmitter<User1>();
 
-  onSubmit(value: User1) {
+  onSubmit(value: User1): void {
     this.submitted.emit(value);
   }
 

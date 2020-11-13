@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 
-import { AuthFormComponent } from './auth-form.component';
+import { AuthForm03Component } from './auth-form.component';
 import { AuthRememberComponent } from './auth-remember.component';
 
 @NgModule({
   declarations: [
-    AuthFormComponent,
+    AuthForm03Component,
     AuthRememberComponent
   ],
   imports: [
@@ -15,7 +15,7 @@ import { AuthRememberComponent } from './auth-remember.component';
     FormsModule
   ],
   exports: [
-    AuthFormComponent,
+    AuthForm03Component,
     AuthRememberComponent
   ]
 })

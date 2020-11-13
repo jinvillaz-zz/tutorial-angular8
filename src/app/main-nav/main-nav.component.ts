@@ -23,6 +23,11 @@ export class MainNavComponent {
       { path: '/01-content-projection', value: '01-content-projection' },
       { path: '/02-injection-slots', value: '02-injection-slots' },
       { path: '/03-projecting-components', value: '03-projecting-components' },
+      { path: '/04-content-child-aftercontentinit', value: '04-content-child-aftercontentinit' },
+      { path: '/05-contentchildren-query', value: '05-contentchildren-querylists' },
+      { path: '/06-viewchild-afterviewinit', value: '06-viewchild-afterviewinit' },
+      { path: '/07-viewchildren-querylist', value: '07-viewchildren-querylist' },
+      { path: '/08-viewchild-templateref', value: '08-viewchild-templateref' },
     );
   }
 }

@@ -1,0 +1,24 @@
+<div>
+  <app-auth-form05
+        (submitted)="createUser($event)">
+        <h3>Create account</h3>
+        <button type="submit">
+          Join us
+        </button>
+  </app-auth-form05>
+  <app-auth-form05 (submitted)="loginUser($event)">
+    <h3>Login</h3>
+    <app-auth-remember05
+      (checked)="rememberUser($event)">
+    </app-auth-remember05>
+    <app-auth-remember05
+      (checked)="rememberUser($event)">
+    </app-auth-remember05>
+    <app-auth-remember05
+      (checked)="rememberUser($event)">
+    </app-auth-remember05>
+    <button type="submit">
+      Login
+    </button>
+  </app-auth-form05>
+</div>

@@ -4,16 +4,21 @@
       [mode]="(isHandset$ | async) ? 'over' : 'side'"
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar color="primary">Menu</mat-toolbar>
-    <!-- <mat-nav-list>
-      <a mat-list-item [routerLinkActive]="['active']" [routerLink]="'/'">Home</a>
-      <a mat-list-item [routerLinkActive]="['active']" [routerLink]="'/01-content-projection'">01-content-projection</a>
-      <a mat-list-item [routerLinkActive]="['active']" [routerLink]="'/02-injection-slots'">02-injection-slots</a>
+   <!--  <mat-nav-list  *ngFor="let link of links">
+      <a mat-list-item [routerLinkActive]="'active-link'" [routerLink]="[link.path]" >{{ link.value }}</a>
     </mat-nav-list> -->
-    <!-- <mat-nav-list>
-      <a mat-list-item [routerLinkActive]="['active']" [routerLink]="[link.path]" *ngFor="let link of links">{{ link.value }}</a>
-    </mat-nav-list> -->
-    <mat-nav-list  *ngFor="let link of links">
-      <a mat-list-item [routerLinkActive]="['active']" [routerLink]="[link.path]" >{{ link.value }}</a>
+    <mat-nav-list>
+      <!-- <a mat-list-item [routerLinkActive]="'active-link'" [routerLink]="[link.path]" >{{ link.value }}</a> -->
+      <a *ngFor="let navItem of links"
+        mat-list-item
+        routerLinkActive
+        #routerLinkActiveInstance="routerLinkActive"
+        [attr.tabindex]="routerLinkActiveInstance.isActive"
+        [class.list-item-active]="routerLinkActiveInstance.isActive"
+        [routerLink]="[navItem.path]"
+      >
+        {{navItem.value}}
+      </a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>

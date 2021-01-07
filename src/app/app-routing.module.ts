@@ -14,6 +14,12 @@ const routes: Routes = [
   { path: '06-viewchild-afterviewinit', loadChildren: () => import('./06-viewchild-afterviewinit/06.module').then(m => m.Module06) },
   { path: '07-viewchildren-querylist', loadChildren: () => import('./07-viewchildren-querylist/07.module').then(m => m.Module07) },
   { path: '08-viewchild-templateref', loadChildren: () => import('./08-viewchild-templateref/08.module').then(m => m.Module08) },
+  { path: '09-elementref-nativeelement', loadChildren: () => import('./09-elementref-nativeelement/09.module').then(m => m.Module09) },
+  { path: '10-platform-renderer', loadChildren: () => import('./10-platform-renderer/10.module').then(m => m.Module10) },
+  { path: '11-dynamic-components', loadChildren: () => import('./11-dynamic-components/10.module').then(m => m.Module10) },
+  { path: '12-dynamic-input-data', loadChildren: () => import('./12-dynamic-input-data/module').then(m => m.Module) },
+  { path: '13-dynamic-output-subscriptions', loadChildren: () => import('./13-dynamic-output-subscriptions/module').then(m => m.Module) },
+  { path: '14-destroying-dynamic-components', loadChildren: () => import('./14-destroying-dynamic-components/module').then(m => m.Module) },
   // { path: '**', component: Page404Component },
 ];
 

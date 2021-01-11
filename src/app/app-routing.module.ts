@@ -31,7 +31,7 @@ const routes: Routes = [
   declarations: [],
   imports: [
     CommonModule,
-    RouterModule.forRoot(routes, { enableTracing: false }),
+    RouterModule.forRoot(routes, { enableTracing: false, relativeLinkResolution: 'legacy' }),
   ],
   exports: [ RouterModule ]
 })

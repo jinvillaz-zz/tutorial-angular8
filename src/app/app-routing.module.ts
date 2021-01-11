@@ -20,6 +20,10 @@ const routes: Routes = [
   { path: '12-dynamic-input-data', loadChildren: () => import('./12-dynamic-input-data/module').then(m => m.Module) },
   { path: '13-dynamic-output-subscriptions', loadChildren: () => import('./13-dynamic-output-subscriptions/module').then(m => m.Module) },
   { path: '14-destroying-dynamic-components', loadChildren: () => import('./14-destroying-dynamic-components/module').then(m => m.Module) },
+  { path: '15-rendering-order', loadChildren: () => import('./15-rendering-order/module').then(m => m.Module) },
+  { path: '16-viewconteinerref', loadChildren: () => import('./16-viewconteinerref/module').then(m => m.Module) },
+  { path: '17-template-context', loadChildren: () => import('./17-template-context/module').then(m => m.Module) },
+  { path: '18-ngtemplate-outlet', loadChildren: () => import('./18-ngtemplate-outlet/module').then(m => m.Module) },
   // { path: '**', component: Page404Component },
 ];
 

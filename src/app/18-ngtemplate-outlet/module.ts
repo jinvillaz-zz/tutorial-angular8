@@ -1,16 +1,17 @@
 import { NgModule } from '@angular/core';
-import { AuthFormModule } from './auth-form/auth-form.module';
-import { AppRoutingModule, routingComponents } from './routing.module';
+import { CommonModule } from '@angular/common';
+
+// import { AuthFormModule } from './auth-form/auth-form.module';
+import { AppRoutingModule } from './routing.module';
+import { TestAppComponent } from './component';
 
 @NgModule({
   declarations: [
-    routingComponents
+    TestAppComponent,
   ],
   imports: [
-    AuthFormModule,
-    AppRoutingModule
-  ],
-  exports: [
+    CommonModule,
+    AppRoutingModule,
   ]
 })
 export class Module { }

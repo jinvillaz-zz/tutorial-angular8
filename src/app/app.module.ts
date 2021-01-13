@@ -8,17 +8,14 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 
-import { AppRoutingModule, routingComponents } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
+    MainNavComponent,
     AppComponent,
-    HomeComponent,
-    routingComponents,
-    MainNavComponent
   ],
   imports: [
     BrowserModule,

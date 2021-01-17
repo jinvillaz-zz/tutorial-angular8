@@ -38,7 +38,7 @@ export class MainNavComponent implements OnInit {
       { path: '/15-rendering-order', value: '15-rendering-order', index: 15 },
       { path: '/16-viewconteinerref', value: '16-viewconteinerref', index: 16 },
       { path: '/17-template-context', value: '17-template-context', index: 17 },
-      { path: '/18-ngtemplate-outlet', value: '18-ngtemplate-outlet', index: 17 },
+      { path: '/18-ngtemplate-outlet', value: '18-ngtemplate-outlet', index: 18 },
     );
   }
 

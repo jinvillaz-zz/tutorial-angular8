@@ -39,6 +39,25 @@ export class MainNavComponent implements OnInit {
       { path: '/16-viewconteinerref', value: '16-viewconteinerref', index: 16 },
       { path: '/17-template-context', value: '17-template-context', index: 17 },
       { path: '/18-ngtemplate-outlet', value: '18-ngtemplate-outlet', index: 18 },
+      { path: '/19-ng-outlet-context', value: '19-ng-outlet-context', index: 19 },
+      { path: '/20-view-shadow-dom', value: '20-view-shadow-dom', index: 20 },
+      { path: '/21-changedetection', value: '21-changedetection', index: 21 },
+      /*{ path: '/04-content-child-aftercontentinit', value: '04-content-child-aftercontentinit', index: 22 },
+      { path: '/05-contentchildren-query', value: '05-contentchildren-querylists', index: 23 },
+      { path: '/06-viewchild-afterviewinit', value: '06-viewchild-afterviewinit', index: 24 },
+      { path: '/07-viewchildren-querylist', value: '07-viewchildren-querylist', index: 25 },
+      { path: '/08-viewchild-templateref', value: '08-viewchild-templateref', index: 26 },
+      { path: '/09-elementref-nativeelement', value: '09-elementref-nativeelement', index: 27 },
+      { path: '/10-platform-renderer', value: '10-platform-renderer', index: 28 },
+      { path: '/11-dynamic-components', value: '11-dynamic-components', index: 29 },
+      { path: '/12-dynamic-input-data', value: '12-dynamic-input-data', index: 30 },
+      { path: '/13-dynamic-output-subscriptions', value: '13-dynamic-output-subscriptions', index: 31 },
+      { path: '/14-destroying-dynamic-components', value: '14-destroying-dynamic-components', index: 32 },
+      { path: '/15-rendering-order', value: '15-rendering-order', index: 33 },
+      { path: '/16-viewconteinerref', value: '16-viewconteinerref', index: 34 },
+      { path: '/17-template-context', value: '17-template-context', index: 35 },
+      { path: '/18-ngtemplate-outlet', value: '18-ngtemplate-outlet', index: 36 },
+      { path: '/19-ng-outlet-context', value: '19-ng-outlet-context', index: 37 }, */
     );
   }
 

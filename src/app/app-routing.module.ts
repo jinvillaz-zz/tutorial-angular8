@@ -23,6 +23,22 @@ const routes: Routes = [
   { path: '16-viewconteinerref', loadChildren: () => import('./16-viewconteinerref/module').then(m => m.Module) },
   { path: '17-template-context', loadChildren: () => import('./17-template-context/module').then(m => m.Module) },
   { path: '18-ngtemplate-outlet', loadChildren: () => import('./18-ngtemplate-outlet/module').then(m => m.Module) },
+  { path: '19-ng-outlet-context', loadChildren: () => import('./19-ng-outlet-context/module').then(m => m.Module) },
+  { path: '20-view-shadow-dom', loadChildren: () => import('./20-view-shadow-dom/module').then(m => m.Module) },
+  { path: '21-changedetection', loadChildren: () => import('./21-changedetection/module').then(m => m.Module) },
+  /*{ path: '17-template-context', loadChildren: () => import('./17-template-context/module').then(m => m.Module) },
+  { path: '18-ngtemplate-outlet', loadChildren: () => import('./18-ngtemplate-outlet/module').then(m => m.Module) },
+  { path: '19-ng-outlet-context', loadChildren: () => import('./19-ng-outlet-context/module').then(m => m.Module) },
+  { path: '15-rendering-order', loadChildren: () => import('./15-rendering-order/module').then(m => m.Module) },
+  { path: '16-viewconteinerref', loadChildren: () => import('./16-viewconteinerref/module').then(m => m.Module) },
+  { path: '17-template-context', loadChildren: () => import('./17-template-context/module').then(m => m.Module) },
+  { path: '18-ngtemplate-outlet', loadChildren: () => import('./18-ngtemplate-outlet/module').then(m => m.Module) },
+  { path: '19-ng-outlet-context', loadChildren: () => import('./19-ng-outlet-context/module').then(m => m.Module) },
+  { path: '15-rendering-order', loadChildren: () => import('./15-rendering-order/module').then(m => m.Module) },
+  { path: '16-viewconteinerref', loadChildren: () => import('./16-viewconteinerref/module').then(m => m.Module) },
+  { path: '17-template-context', loadChildren: () => import('./17-template-context/module').then(m => m.Module) },
+  { path: '18-ngtemplate-outlet', loadChildren: () => import('./18-ngtemplate-outlet/module').then(m => m.Module) },
+  { path: '19-ng-outlet-context', loadChildren: () => import('./19-ng-outlet-context/module').then(m => m.Module) }, */
   // { path: '**', component: Page404Component },
 ];
 
@@ -33,6 +49,3 @@ const routes: Routes = [
   exports: [ RouterModule ]
 })
 export class AppRoutingModule { }
-/*export const routingComponents = [
-  HomeComponent
-];*/

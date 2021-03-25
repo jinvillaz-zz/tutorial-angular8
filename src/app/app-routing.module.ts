@@ -33,9 +33,9 @@ const routes: Routes = [
   { path: '26-directive-structural', loadChildren: () => import('./26-directive-structural/module').then(m => m.Module) },
   { path: '27-custom-pipes', loadChildren: () => import('./27-custom-pipes/module').then(m => m.Module) },
   { path: '28-pipes-providers', loadChildren: () => import('./28-pipes-providers/module').then(m => m.Module) },
-  /*{ path: '19-ng-outlet-context', loadChildren: () => import('./19-ng-outlet-context/module').then(m => m.Module) },
-  { path: '15-rendering-order', loadChildren: () => import('./15-rendering-order/module').then(m => m.Module) },
-  { path: '16-viewconteinerref', loadChildren: () => import('./16-viewconteinerref/module').then(m => m.Module) },
+  { path: '29-reactive-setup', loadChildren: () => import('./29-reactive-setup/module').then(m => m.Module) },
+  { path: '30-formcontrol', loadChildren: () => import('./30-formcontrol/module').then(m => m.Module) },
+  /*{ path: '16-viewconteinerref', loadChildren: () => import('./16-viewconteinerref/module').then(m => m.Module) },
   { path: '17-template-context', loadChildren: () => import('./17-template-context/module').then(m => m.Module) },
   { path: '18-ngtemplate-outlet', loadChildren: () => import('./18-ngtemplate-outlet/module').then(m => m.Module) },
   { path: '19-ng-outlet-context', loadChildren: () => import('./19-ng-outlet-context/module').then(m => m.Module) }, */

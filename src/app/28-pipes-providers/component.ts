@@ -13,7 +13,7 @@ interface CustomFile {
 }
 
 @Component({
-  selector: 'app-27',
+  selector: 'app-28',
   template: `
     <div class="main-container">
       <div *ngFor="let file of mappedFiles">

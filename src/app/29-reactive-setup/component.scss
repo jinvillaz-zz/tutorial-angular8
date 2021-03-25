@@ -1,0 +1,13 @@
+.main-container {
+  margin: 50px;
+  padding: 50px;
+  width: 500px;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  border: 1px solid #dce5f2;
+  box-shadow: 0 1px 4px rgba(53,60,72,0.1);
+  display: inline-flex;
+  div {
+    flex: 15%;
+  }
+}
